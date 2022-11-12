@@ -1,0 +1,23 @@
+.Button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #e5383b;
+  border: 1px solid black;
+  color: white;
+  font-size: 16px;
+  text-shadow: 2px 2px black;
+  /* box-shadow: 1px 1px white; */
+  transition: all 0.2s ease-in;
+}
+
+.Button:hover {
+  background-color: #660708;
+  box-shadow: 1px 1px 10px 15px #dd6a6c;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.Button:active {
+  transform: scale(0.75);
+}

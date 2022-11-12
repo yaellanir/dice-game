@@ -1,0 +1,54 @@
+.die {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+  object-fit: contain;
+}
+
+.roll {
+  width: 70px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #e5383b;
+  border-color: antiquewhite;
+  color: white;
+}
+
+.hold {
+  width: 70px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #e5383b;
+  border-color: antiquewhite;
+  color: white;
+}
+
+.roll:active {
+  box-shadow: 2px 10px 15px #dd6a6c;
+  transform: scale(0.95);
+}
+
+.hold:active {
+  box-shadow: 2px 10px 25px #dd6a6c;
+  transform: scale(0.95);
+}
+
+.diceSection {
+  gap: 20px;
+  height: 100px;
+  padding: 0 10px;
+  /* width: 300px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d3d3d3;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.tempScoreContainer {
+  flex-direction: column;
+  font-size: 16px;
+  color: rgb(243, 237, 237);
+  text-shadow: 2px 2px 10px #161a1d;
+}

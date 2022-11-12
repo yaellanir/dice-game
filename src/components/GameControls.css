@@ -1,0 +1,12 @@
+.GameControls {
+  display: flex;
+  background-color:#161a1d;
+  height: 40%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .GameControls{
+    flex-direction: column;
+  }}
